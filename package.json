@@ -1,0 +1,26 @@
+{
+  "name": "tuhoc-nodejs",
+  "version": "1.0.0",
+  "description": "tu-hoc",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/heju1201/TuHocNode.js.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "heju",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/heju1201/TuHocNode.js/issues"
+  },
+  "homepage": "https://github.com/heju1201/TuHocNode.js#readme",
+  "dependencies": {
+    "express": "4.18.2"
+  }
+}
