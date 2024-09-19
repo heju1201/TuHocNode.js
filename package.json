@@ -1,31 +1,24 @@
 {
-  "name": "tuhoc-nodejs",
+  "name": "tu-hoc-nodejs",
   "version": "1.0.0",
-  "description": "tu-hoc",
+  "description": "xoa di lam lai lan 2",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/heju1201/TuHocNode.js.git"
   },
   "keywords": [
     "nodejs"
   ],
   "author": "heju",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/heju1201/TuHocNode.js/issues"
-  },
-  "homepage": "https://github.com/heju1201/TuHocNode.js#readme",
   "dependencies": {
     "dotenv": "16.0.3",
-    "ejs": "^3.1.10",
-    "express": "4.18.2"
+    "ejs": "3.1.8",
+    "express": "4.18.2",
+    "mysql2": "2.3.3"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
+    "nodemon": "2.0.20"
   }
 }
