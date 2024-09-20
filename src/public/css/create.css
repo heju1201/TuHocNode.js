@@ -45,3 +45,6 @@ button {
 button:hover {
   background-color: gray;
 }
+.d-non {
+  display: none;
+}
