@@ -13,6 +13,9 @@ const getHeju = (req, res) => {
 const getCreateUsers = (req, res) => {
   res.render("create.ejs");
 };
+const getUpdateUser = (req, res) => {
+  res.render("edit.ejs");
+};
 const postCreateUser = async (req, res) => {
   console.log(req.body);
   let email = req.body.email;
@@ -24,16 +27,19 @@ const postCreateUser = async (req, res) => {
     `insert into Users (email,name,city) values(?,?,?)`,
     [email, name, city]
   );
+
   console.log(results);
   res.send("Create user succeed !");
 
   // const [results, fields] = await connection.query("select * from Users u");
   // console.log(results);
 };
+
 module.exports = {
   getHomePage,
   getAbc,
   getHeju,
   postCreateUser,
   getCreateUsers,
+  getUpdateUser,
 };
