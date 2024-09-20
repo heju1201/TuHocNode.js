@@ -14,7 +14,7 @@ router.get("/", getHomePage);
 router.get("/abc", getAbc);
 router.get("/heju", getHeju);
 router.get("/create", getCreateUsers);
-router.get("/update", getUpdateUser);
+router.get("/update/:id", getUpdateUser);
 router.post("/create-user", postCreateUser);
 
 module.exports = router; // export default
