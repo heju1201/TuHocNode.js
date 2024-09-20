@@ -18,24 +18,26 @@
     </div>
     <!-- Form -->
     <div class="form-add-new">
-      <fieldset>
-        <legend>Form Add New Users</legend>
-        <div class="input-group">
-          <label for="">Email : </label>
-          <input type="text" />
-        </div>
-        <div class="input-group">
-          <label for="">Name : </label>
-          <input type="text" />
-        </div>
-        <div class="input-group">
-          <label for="">City : </label>
-          <input type="text" />
-        </div>
-        <div>
-          <button>Save</button>
-        </div>
-      </fieldset>
+      <form action="/create-user" method="POST">
+        <fieldset>
+          <legend>Add New Users</legend>
+          <div class="input-group">
+            <label for="">Email : </label>
+            <input type="text" name="email" />
+          </div>
+          <div class="input-group">
+            <label for="">Name : </label>
+            <input type="text" name="name" />
+          </div>
+          <div class="input-group">
+            <label for="">City : </label>
+            <input type="text" name="city" />
+          </div>
+          <div>
+            <button>Save</button>
+          </div>
+        </fieldset>
+      </form>
     </div>
   </body>
 </html>
