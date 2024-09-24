@@ -21,8 +21,6 @@ app.use(express.urlencoded({ extended: true })); // for form data
 // khai báo router
 app.use("/", webRouter);
 
-//test connection
-
 app.listen(port, hostname, () => {
   console.log(`Example app listening on port ${port}`);
 });

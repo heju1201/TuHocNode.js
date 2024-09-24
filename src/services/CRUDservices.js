@@ -17,8 +17,10 @@ const updateUser = async (email, name, city, id) => {
     [email, name, city, id]
   );
 };
+const deleteUser = async (id) => {};
 module.exports = {
   getAllUsers,
   getIdUser,
   updateUser,
+  deleteUser,
 };
